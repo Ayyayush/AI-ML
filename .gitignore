@@ -1,0 +1,38 @@
+# Ignore everything
+*
+
+# Allow selected folders
+!0-IntQues/
+!0-IntQues/**
+
+!1-Module/
+!1-Module/**
+
+!2-Module/
+!2-Module/**
+
+
+!3-Module/
+!3-Module/**
+
+# Allow important root files
+!.gitignore
+!README.md
+
+# Ignore Python cache files
+**/__pycache__/
+**/__pycache__/**
+
+# Ignore virtual environments
+**/.venv/
+**/.venv/**
+
+**/venv/
+**/venv/**
+
+# Ignore IDE files
+**/.idea/
+**/.idea/**
+
+# Ignore Python compiled files
+*.pyc
