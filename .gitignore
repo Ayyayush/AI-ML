@@ -5,15 +5,14 @@
 !0-IntQues/
 !0-IntQues/**
 
-!1-Module/
-!1-Module/**
+!4-Module/
+!4-Module/**
+!5-Module/
+!5-Module/**
 
-!2-Module/
-!2-Module/**
-
-
-!3-Module/
-!3-Module/**
+# ❌ Re-ignore unwanted subfolders (IMPORTANT: use /**)
+4-Module/streamlit/**
+5-Module/0-demoproject/**
 
 # Allow important root files
 !.gitignore
@@ -21,18 +20,13 @@
 
 # Ignore Python cache files
 **/__pycache__/
-**/__pycache__/**
 
 # Ignore virtual environments
 **/.venv/
-**/.venv/**
-
 **/venv/
-**/venv/**
 
 # Ignore IDE files
 **/.idea/
-**/.idea/**
 
 # Ignore Python compiled files
 *.pyc
